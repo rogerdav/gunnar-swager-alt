@@ -9,6 +9,7 @@ import Sponsors from './components/sponsors';
 import Footer from './components/footer';
 import Donate from './components/donate-button';
 import Example from './components/menu';
+import Review from './components/review';
 import Gunnar from './components/gunnar';
 import Test from './components/test-component-sidepics';
 import Carousel from './components/carousel';
@@ -35,12 +36,13 @@ class App extends Component {
           <Header scrolling={this.state.scrolling} pageWrapId={ "menuBody" }/>
           <div className="appBody" id="menuBody">
           <Route exact path='/' component={About} />
-          <Route exact path='/help' component={Purchase} />
-          <Route exact path='/events' component={Events} />
-          <Route exact path='/media' component={Media} />
-          <Route exact path='/sponsors' component={Sponsors} />
-          <Route exact path='/gunnar' component={Carousel} />
-          <Route exact path='/contact' component={Contact} />
+          <Route path='/help' component={Purchase} />
+          <Route path='/events' component={Events} />
+          <Route path='/media' component={Media} />
+          <Route path='/sponsors' component={Sponsors} />
+          <Route path='/gunnar' component={Carousel} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/review' component={Review} />
           
           <Donate />
           

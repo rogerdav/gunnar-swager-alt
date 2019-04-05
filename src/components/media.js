@@ -6,10 +6,10 @@ import image from '../media/interview.jpg';
 
 const Media = (props) => {
   return (
-    <div className="media" id="media" >
+    <div id="media" >
    
-   <Parallax bgImage={image} blur={{ min: -5, max: 15 }}>
-      <div style={{ height: 1200 }}>
+   
+      <div className="mediaBackground">
         <div className="insideDiv media">
           <h4>Media</h4>
           <p>Here we will have links to media interviews etc.</p>
@@ -19,7 +19,7 @@ const Media = (props) => {
         
         </div>
       </div>
-    </Parallax>
+    
     </div>
   );
  }

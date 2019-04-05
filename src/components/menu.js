@@ -66,6 +66,12 @@ class Example extends React.Component {
             // onStateChange={(state) => this.handleStateChange(state)}
             className="menu-item" 
             to='/contact'>Contact</Link>
+        <Link id="reviewmenu" 
+            onClick={() => this.closeMenu()}
+            // onStateChange={(state) => this.handleStateChange(state)}
+            className="menu-item" 
+            to='/review'>Year in review</Link>
+        <a href="http://www.facebook.com" className="fa fa-facebook"></a>
       </Menu>
     );
   }

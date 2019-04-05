@@ -40,6 +40,7 @@ class DemoCarousel extends Component {
         return (
             <div id="carouselContainer">
                 <Carousel 
+                className="carouselImages"
                 autoPlay={true} 
                 infiniteLoop={true} 
                 dynamicHeight={true} 

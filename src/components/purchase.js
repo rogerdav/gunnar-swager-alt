@@ -26,7 +26,7 @@ const Purchase = (props) => {
       <div className="leftSide">
       </div>
       <div className="contents">
-      <h4>How To Help</h4>
+      <h1>How To Help</h1>
           <p>Help the foundation by buying a book</p>
           <p>there will be a link here to Amazon</p>
           <p>Donate some money to the foundation</p>
