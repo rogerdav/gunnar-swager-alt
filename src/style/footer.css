@@ -1,0 +1,15 @@
+.footer {
+  background-color: rgb(21, 32, 71);
+  height: 75px;
+  width: 100%;
+  margin-bottom: 0%;
+}
+.footer h6 {
+  font-size: 2em;
+  font-style: italic;
+  color: white;
+  margin: 0 0;
+  font-weight: 500;
+
+
+}
