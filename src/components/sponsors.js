@@ -7,9 +7,9 @@ const Sponsors = (props) => {
   return (
     <div id="sponsors">
    
-   <Parallax bgImage={image} blur={{ min: -5, max: 15 }}>
-      <div style={{ height: 1200 }}>
-        <div className="insideDiv">
+   
+      <div className="sponsorsBackground">
+        <div className="insideDiv sponsors">
           <h4>Friends of The foundation</h4>
           <p>We will put the logos of the sponsors in this space</p>
           <p>I was thinking that we could have a "brick wall" at the </p>
@@ -19,7 +19,7 @@ const Sponsors = (props) => {
         
         </div>
       </div>
-    </Parallax>
+    
     </div>
   );
  }

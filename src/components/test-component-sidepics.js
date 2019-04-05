@@ -1,7 +1,5 @@
 import React from 'react';
-import { Parallax, Background } from 'react-parallax';
 import '../style/test.css';
-import image from '../media/cover.jpg';
 
 const Test = (props) => {
   return (
